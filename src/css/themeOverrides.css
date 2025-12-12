@@ -1,0 +1,62 @@
+/* themeOverrides.css */
+
+/* Apply color transitions for smooth theme switching */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Global styles for dark theme */
+.theme-dark {
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-dark);
+}
+
+/* Global styles for light theme */
+.theme-light {
+  background-color: var(--color-bg-light);
+  color: var(--color-text-light);
+}
+
+/* Navbar styles */
+.navbar {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.navbar__brand,
+.navbar__link {
+  color: var(--ifm-navbar-color);
+}
+
+.navbar__link:hover {
+  color: var(--color-gold-hover);
+}
+
+/* Footer styles */
+.footer {
+  border-top: 1px solid var(--color-border);
+}
+
+/* Docusaurus specific overrides */
+html[data-theme="dark"] {
+  --ifm-background-color: var(--color-bg-dark);
+  --ifm-text-color: var(--color-text-dark);
+  --ifm-color-primary: var(--color-gold);
+  --ifm-color-primary-dark: var(--color-gold-hover);
+  --ifm-navbar-background-color: var(--color-bg-dark);
+  --ifm-footer-background-color: var(--color-bg-dark);
+  --ifm-code-background: #2e2e2e;
+  --ifm-code-color: #f8f8f2;
+  --ifm-toc-border-color: var(--color-border);
+}
+
+html[data-theme="light"] {
+  --ifm-background-color: var(--color-bg-light);
+  --ifm-text-color: var(--color-text-light);
+  --ifm-color-primary: var(--color-gold);
+  --ifm-color-primary-dark: var(--color-gold-hover);
+  --ifm-navbar-background-color: var(--color-bg-light);
+  --ifm-footer-background-color: var(--color-bg-light);
+  --ifm-code-background: #f6f8fa;
+  --ifm-code-color: #24292e;
+  --ifm-toc-border-color: var(--color-border);
+}

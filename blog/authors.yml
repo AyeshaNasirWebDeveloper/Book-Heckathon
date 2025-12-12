@@ -1,0 +1,25 @@
+yangshun:
+  name: Yangshun Tay
+  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
+  url: https://linkedin.com/in/yangshun
+  image_url: https://github.com/yangshun.png
+  page: true
+  socials:
+    x: yangshunz
+    linkedin: yangshun
+    github: yangshun
+    newsletter: https://www.greatfrontend.com
+
+slorber:
+  name: Ayseha Nasir
+  title: Full Stack Developer, Open Source Enthusiast & AI Researcher
+  url: https://portfolio-ayeshanasirwebdevelopers-projects.vercel.app/
+  image_url: https://portfolio-ayeshanasirwebdevelopers-projects.vercel.app/img/cop.png
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: '/all-sebastien-lorber-articles'
+  socials:
+    x: https://twitter.com/AyeshaNasir170
+    linkedin: https://www.linkedin.com/in/ayeshanasirwin/
+    github: https://github.com/AyeshaNasirWebDeveloper
+    newsletter: https://kaleidoscopic-nougat-fe9e5e.netlify.app/
