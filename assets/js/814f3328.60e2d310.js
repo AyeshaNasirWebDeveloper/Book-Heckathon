@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunksite=globalThis.webpackChunksite||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"My Blog Post","permalink":"/Book-Heckathon/blog/mdx-blog-post","unlisted":false,"date":"2021-08-01T00:00:00.000Z"}]}')}}]);
