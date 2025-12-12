@@ -7,15 +7,13 @@ const config = {
   favicon: "img/favicon.ico",
 
   future: {
-    v4: {
-      removeLegacyPostBuildHeadAttribute: true,
-    },
+    v4: true,
   },
 
   // REQUIRED FOR GITHUB PAGES
   url: "https://ayeshanasirwebdeveloper.github.io",
   baseUrl: "/Book-Heckathon/",
-  trailingSlash: false,
+  trailingSlash: true,
   organizationName: "AyeshaNasirWebDeveloper",
   projectName: "Book-Heckathon",
   deploymentBranch: "gh-pages",
@@ -39,6 +37,7 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+          routeBasePath: "docs",
         },
         blog: {
           showReadingTime: true,
