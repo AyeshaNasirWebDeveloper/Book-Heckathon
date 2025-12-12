@@ -7,12 +7,15 @@ const config = {
   favicon: "img/favicon.ico",
 
   future: {
-    v4: true,
+    v4: {
+      removeLegacyPostBuildHeadAttribute: true,
+    },
   },
 
   // REQUIRED FOR GITHUB PAGES
-  url: "https://AyeshaNasirWebDeveloper.github.io",
+  url: "https://ayeshanasirwebdeveloper.github.io",
   baseUrl: "/Book-Heckathon/",
+  trailingSlash: false,
   organizationName: "AyeshaNasirWebDeveloper",
   projectName: "Book-Heckathon",
   deploymentBranch: "gh-pages",
@@ -56,8 +59,7 @@ const config = {
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
-    // Custom theme tokens
-    // These will be used by themeOverrides.css
+
     theme: {
       dark: {
         "--ifm-background-color": "var(--color-bg-dark)",
@@ -82,10 +84,10 @@ const config = {
         "--ifm-toc-border-color": "var(--color-border)",
       },
     },
+
     navbar: {
       title: "AI Physical & Robotics",
-      // Custom navbar styles
-      style: "dark", // Always dark for consistent look, themeOverrides.css will handle colors
+      style: "dark",
       hideOnScroll: true,
       logo: {
         alt: "AI Robotics Logo",
@@ -109,8 +111,7 @@ const config = {
     },
 
     footer: {
-      // Custom footer styles
-      style: "dark", // Always dark for consistent look, themeOverrides.css will handle colors
+      style: "dark",
       links: [
         {
           title: "Docs",
